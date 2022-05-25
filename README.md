@@ -1,10 +1,6 @@
-initial setup
-fetching html
-searching for elements
-crawling the links
-ignore 'seen' links
-stay on the same page
-const {host, protocol} = urlParser.parse(url);
-handle absolute vs relative links
-downloading datasets
+# Crawling for Experiments
 
+1. Create a virtual environment
+2. Load the virtual environment
+3. Install dependencies: `pip install -r REQUIREMENTS.txt`
+4. Iterate frequently by running from the top-level of the repository: `python experiment-crawler/src/expcrawler.py`
